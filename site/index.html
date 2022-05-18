@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--External stylesheet for css external styling-->
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>BBC News</title>
+    <!--Using Style Tag for Internet Styling-->
+
+    <style>
+        body {margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial, sans-serif;
+        background-color: #ffffffe0;}
+    </style>
 </head>
 <body>
     <header>
+        <!--The bar the shows at the top of the page-->
         <div id="topbar">
         <img id="logo" src="bbc-logo.png">
             <div id="signin-div" class="topbar-section">
                 <img id="signin-image" src="signinimage.png">
-                <a href="signin.html" src="signin.html" id="signin-text">Sign in</a>
+                <a href="signin.html" src="signin.html" id="signin-text" title="Sign In here">Sign in</a>
             </div>
                 <id="bell-div">
                 <img id="wigglyline" src="wigglyline.png">
@@ -50,6 +61,7 @@
             <div class="clear"></div>
             <div id="menu-bar-2-container">
                 <div id="menu-bar-2">
+                    <!--Top bar pages hyperlinked to original BBC website-->
                 
                     <a href="https://www.bbc.com/news">Home</a>
                     <a href="https://www.bbc.com/news/coronavirus">Corona Virus</a>
@@ -76,7 +88,7 @@
                         <div id="article-container">
                 
                             <h3><a href="">UK internet use doubles in 2020 due to pandemic</a></h3>
-                            
+                            <!--Main article body-->
         
                             <div id="article-summary">
         
@@ -94,8 +106,9 @@
                                     A mix of video calls to get in touch with family and friends, as well as TV streaming and gaming downloads were contributing factors to the 26 December record, it said.</p>
         
                                 <p><img class="clock" src="clock.png"> <span class="date">30 December 2020</span><a class="topic-link" href="https://www.bbc.com/news/technology">Technology</a></p>
-                                <hr id="article-hr"  align="left">
+                                <hr id="article-hr"  align="left"> <!--Inline styling-->
                                 <div>
+                                    <!---Explaining in Table form-->
                                     <table class="table">
                                         <h5>Countries with the highest number of internet users as of February 2022</h5>
                                         <tr>
@@ -140,8 +153,10 @@
                                 
                                 </div>
                                 <div>
-                                <img id="main-article-image" src="main-article-image.jpg">
-                                <img id="main-article-image" src="main2.png">
+                                    <!--used a tooltip for image-->
+                                <img id="main-article-image" src="main-article-image.jpg" title="Getty Images">
+                                <img id="main-article-image" src="main2.png"Title="shows growth of internet">
+                                
                                 </div>
                                 
                                    
@@ -152,13 +167,14 @@
                         
                     </div>
                     
-                    
+                    <!--The Articles that show at the right side of the Page-->
                     <div id="watch-listen">
                     
                         <h4>Top Stories</h4>
                         
                         <img class="article-side-image" src="article1.png">
                         <div class="side-article">
+                            <!--Hyperlinked pages that go to the original Website-->
                             <p><a class="watch-listen-link" href="https://www.bbc.com/news/live/world-europe-61441664">LIVE Ukraine wins battle for city of Kharkiv – reports
                             </a></p>
                             <p><img class="clock" src="clock.png"> <span class="date">Live</span></p>
